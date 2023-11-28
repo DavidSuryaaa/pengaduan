@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+*{
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+a.link-sm{
+    color: #FF7A00;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+button.btn-primary{
+    background-color: #C2C2C2;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 300px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-links{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column-illustration-hero img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+
+img.il-hero{
+    top: 20%;
+    margin-right: 300px;
+}
+
+img.H1{
+    padding-top: 250px;
+    width: 50%;
+
+}
+
+h1.hero-heading{
+    font-size: 48px;
+    color: black;
+
+}
+
+p.text-p{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #7A7575;
+    line-height: 38px;
+}
+
+button.btn-secondary{
+    background-color: #FF7A00;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
